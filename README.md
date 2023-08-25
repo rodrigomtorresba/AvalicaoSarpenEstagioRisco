@@ -37,8 +37,7 @@ Assim facilita adaptar o código para novas _features_ no futuro:
 
 
 #### **Gráfico do Retorno Acumulado Obtido:**
-![Figure_1](https://github.com/rodrigomtorresba/AvalicaoSarpenEstagioRisco/assets/122982400/96244e9a-1a83-49da-be70-1de6b4c3aebd)
-
+![Figure_1](https://github.com/rodrigomtorresba/AvalicaoSarpenEstagioRisco/assets/122982400/247a4c22-2fc0-4391-a004-08fbc2496329)
 ---
 ### Problema 2 - Para se obter um Índice de Sharpe maior que o da carteira no cenário base:
 - Foi utilizado o algoritmo _Sequential Least Squares Programming_ (SLSQP) para minimizar a função inversa do Índice de Sharpe, com o limite de que cada peso deve variar entre 0 e 1, e a restrição de que a soma dos pesos seja 1 (representando a totalidade do capital investido.)
@@ -61,8 +60,7 @@ Assim facilita adaptar o código para novas _features_ no futuro:
 | Otimizada           | 31.772901              | 30.908849                   | 60.251035            | -47.353132          |
 
 #### **Gráfico Comparando os Retornos Acumulados Obtidos:**
-![2](https://github.com/rodrigomtorresba/AvalicaoSarpenEstagioRisco/assets/122982400/8f5c3449-7fdb-4052-b032-845f7208cc43)
-
+![2](https://github.com/rodrigomtorresba/AvalicaoSarpenEstagioRisco/assets/122982400/eaa1db2f-4b75-49fd-8256-29b67131043a)
 ---
 ### Problema 3: 
 
@@ -85,8 +83,7 @@ Assim facilita adaptar o código para novas _features_ no futuro:
 | Otimizada           | 31.772901              | 30.908849                   | 60.251035            | -47.353132          |
 | Estratégia Proposta | 18.088005              | 36.585238                   | 13.497260            | -59.215019          |       |
 #### **Gráfico Comparando os Retornos Acumulados Obtidos:**
-![3](https://github.com/rodrigomtorresba/AvalicaoSarpenEstagioRisco/assets/122982400/317bc199-343f-4ee7-9489-0578afbb8ab1)
-
+![3](https://github.com/rodrigomtorresba/AvalicaoSarpenEstagioRisco/assets/122982400/d9be40d9-922e-41ab-b8ac-8bcea1856d79)
 ---
 ### Extra:
 
@@ -100,8 +97,7 @@ Assim facilita adaptar o código para novas _features_ no futuro:
 
 **Dessa forma, a função retorna um portfolio com retorno acumulado cômico:**
 #### **Gráfico Comparando os Retornos:**
-![4](https://github.com/rodrigomtorresba/AvalicaoSarpenEstagioRisco/assets/122982400/ebd576e4-3ef2-4b0a-86f1-8172a28cefcb)
-
+![4](https://github.com/rodrigomtorresba/AvalicaoSarpenEstagioRisco/assets/122982400/1b618ba1-aeee-47f9-a531-afc0786f0958)
 ---
 
 ## Pacotes Python Utilizados:
