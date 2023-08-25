@@ -1,3 +1,25 @@
+
+## Rodando o Código:
+
+### Primeiramente:
+
+#### Alterar as seguintes linhas para seus respectivos diretórios:
+```
+diretorio_entrada = "./resources/"
+diretorio_saida = "./output/"
+```
+
+#### Instalar requerimentos:
+```
+pip install -r requirements.txt
+```
+
+#### Executar o código:
+```
+python AnaliseCarteira.py
+```
+---
+
 ## Abordagem dos problemas propostos:
 
 ### Problema 1 - Foram criadas funções para a maioria das etapas do processo:
