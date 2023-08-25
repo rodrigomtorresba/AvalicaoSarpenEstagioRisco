@@ -8,8 +8,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize
 
+###################
+diretorio_entrada = "./resources/"
+diretorio_saida = "./output/"
+###################
+
 ################### Cria um DataFrame e carrega o arquivo com os dados da carteira, e o delimitador ';'. Declara a CDI de 13,15% como a Rf
-dados_carteira = pd.read_csv('./resources/series_retornos.csv', delimiter=';')
+dados_carteira = pd.read_csv(diretorio_entrada + 'series_retornos.csv', delimiter=';')
 Rf = 0.1315 
 ###################
 
@@ -246,7 +251,7 @@ print(f'\n Os pesos otimizados encontrados foram:\n'
 df_resultados = pd.DataFrame(resultados)
 print('\n E os resultados obtidos:\n')
 print(df_resultados)
-df_resultados.to_csv('./output/Resultados.csv', index=False)
+df_resultados.to_csv(diretorio_saida + 'Resultados.csv', index=False)
 
 # Calcula o cenário extra
 retornos_extra_mensal = extra_melhor_acao_mensal_mes0(dados_carteira)
@@ -285,6 +290,7 @@ def plot_comp_retornos_estrat_mensais():
     plt.ylabel('Retorno Acumulado (%)')
     plt.legend()
     plt.xticks(rotation=45, ha='right')
+
 
 plot_comp_retornos_estrat_mensais()
 plot_comp_retornos()
